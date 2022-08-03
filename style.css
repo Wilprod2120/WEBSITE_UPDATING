@@ -24,6 +24,17 @@ header{
     margin: 2em;
 }
 nav{
+    display: flex; 
+}
+nav ul li {
+    display: inline-block;
+    text-indent: 2px;
+    font-size:medium;
+    font-family: monospace,'sans-serif';
+    padding-left: 1em;
+}
+nav ul{
+    display: block;
     float: right;
     display: flex;
 }
